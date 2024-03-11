@@ -7,7 +7,6 @@ let productData = [
         color: "blue",
         type: "candle",
         id: "g1",
-        // size:,
     },
 
     {
@@ -18,7 +17,6 @@ let productData = [
         color: "blue",
         type: "arom",
         id: "g2",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65817611_040_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
@@ -28,7 +26,6 @@ let productData = [
         color: "blue",
         type: "dinner",
         id: "g55",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/48097422_070_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -38,7 +35,6 @@ let productData = [
         color: "white",
         type: "arom",
         id: "g3",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/67311886_102_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -48,7 +44,6 @@ let productData = [
         color: "blue",
         type: "kids",
         id: "g4",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/61318838_030_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -58,7 +53,6 @@ let productData = [
         color: "green",
         type: "kids",
         id: "g5",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/58028085_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -68,7 +62,6 @@ let productData = [
         color: "black",
         type: "candle",
         id: "g6",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/49216096_072_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -78,7 +71,6 @@ let productData = [
         color: "black",
         type: "arom",
         id: "g7",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/64574262_040_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -88,7 +80,6 @@ let productData = [
         color: "blue",
         type: "kids",
         id: "g56",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/78263522_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -98,7 +89,6 @@ let productData = [
         color: "black",
         type: "arom",
         id: "g8",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65512972_050_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -108,7 +98,6 @@ let productData = [
         color: "white",
         type: "arom",
         id: "g9",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/64772890_072_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -118,7 +107,6 @@ let productData = [
         color: "yellow",
         type: "kids",
         id: "g10",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/67188540_270_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -128,7 +116,6 @@ let productData = [
         color: "yellow",
         type: "candle",
         id: "g11",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45362452AW_071_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -138,7 +125,6 @@ let productData = [
         color: "yellow",
         type: "dinner",
         id: "g12",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/62362462_001_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -148,7 +134,6 @@ let productData = [
         color: "yellow",
         type: "candle",
         id: "g13",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45549381AA_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -158,7 +143,6 @@ let productData = [
         color: "yellow",
         type: "candle",
         id: "g14",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45548988AA_030_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -168,7 +152,6 @@ let productData = [
         color: "yellow",
         type: "candle",
         id: "g15",
-        // size:,
     },
 
     {
@@ -179,7 +162,6 @@ let productData = [
         color: "yellow",
         type: "kids",
         id: "g16",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/70258496_010_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -189,7 +171,6 @@ let productData = [
         color: "yellow",
         type: "arom",
         id: "g17",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45549373AA_016_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -199,7 +180,6 @@ let productData = [
         color: "white",
         type: "candle",
         id: "g18",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65166043_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -209,7 +189,6 @@ let productData = [
         color: "black",
         type: "candle",
         id: "g19",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/66522236_060_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -219,7 +198,6 @@ let productData = [
         color: "red",
         type: "dinner",
         id: "g20",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/66061284_096_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -349,7 +327,6 @@ let productData = [
         color: "pink",
         type: "arom",
         id: "g33",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45541485AA_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -359,7 +336,6 @@ let productData = [
         color: "pink",
         type: "arom",
         id: "g34",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/48703565_066_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -369,7 +345,6 @@ let productData = [
         color: "pink",
         type: "dinner",
         id: "g35",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/62319983_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -379,7 +354,6 @@ let productData = [
         color: "pink",
         type: "candle",
         id: "g36",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65889115_053_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -389,7 +363,6 @@ let productData = [
         color: "pink",
         type: "dinner",
         id: "g37",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/68836600_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -399,7 +372,6 @@ let productData = [
         color: "pink",
         type: "kids",
         id: "g38",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65517112_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -409,7 +381,6 @@ let productData = [
         color: "black",
         type: "arom",
         id: "g39",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45362452AY_010_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -419,7 +390,6 @@ let productData = [
         color: "white",
         type: "dinner",
         id: "g40",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/68912047_040_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -429,7 +399,6 @@ let productData = [
         color: "white",
         type: "kids",
         id: "g41",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/53740551_099_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -439,17 +408,15 @@ let productData = [
         color: "blue",
         type: "arom",
         id: "g42",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/62008644_066_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
         image2: "https://images.urbndata.com/is/image/Anthropologie/62008644_066_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
         name: "Elegant Humidifier Lamp",
         price: 15.00,
-        color: "green",
+        color: "reen",
         type: "arom",
         id: "g43",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45362452AW_034_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -459,7 +426,6 @@ let productData = [
         color: "green",
         type: "dinner",
         id: "g44",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65671810_030_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=6400",
@@ -469,7 +435,6 @@ let productData = [
         color: "green",
         type: "dinner",
         id: "g45",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/76080001_037_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -479,7 +444,6 @@ let productData = [
         color: "green",
         type: "kids",
         id: "g46",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/69955946_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -489,7 +453,6 @@ let productData = [
         color: "red",
         type: "candle",
         id: "g47",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/59169763_069_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
