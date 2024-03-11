@@ -142,8 +142,6 @@ let productData = [
         price: 196.00,
         color: "yellow",
         id: "c18",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130089450010_072_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -152,8 +150,6 @@ let productData = [
         price: 248.00,
         color: "yellow",
         id: "c19",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112211810112_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -162,8 +158,6 @@ let productData = [
         price: 180.00,
         color: "white",
         id: "c20",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130647160137_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -172,8 +166,6 @@ let productData = [
         price: 60.00,
         color: "black",
         id: "c21",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4110652010043_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -182,8 +174,6 @@ let productData = [
         price: 98.00,
         color: "red",
         id: "c22",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/66489675_062_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -192,8 +182,6 @@ let productData = [
         price: 98.00,
         color: "red",
         id: "c23",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4110916210063_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -202,8 +190,6 @@ let productData = [
         price: 246.00,
         color: "red",
         id: "c24",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112609690221_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -212,8 +198,6 @@ let productData = [
         price: 148.00,
         color: "red",
         id: "c25",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4110647160056_064_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -222,8 +206,6 @@ let productData = [
         price: 498.00,
         color: "red",
         id: "c26",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4138348690017_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -232,8 +214,6 @@ let productData = [
         price: 298.00,
         color: "red",
         id: "c27",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4123650590210_008_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -242,8 +222,6 @@ let productData = [
         price: 35.00,
         color: "green",
         id: "c28",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112919040016_032_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -252,8 +230,6 @@ let productData = [
         price: 58.00,
         color: "green",
         id: "c29",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4111212060005_032_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -262,8 +238,6 @@ let productData = [
         price: 68.00,
         color: "green",
         id: "c30",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130647160128_049_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
@@ -272,8 +246,6 @@ let productData = [
         price: 48.00,
         color: "blue",
         id: "c31",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4123339180024_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -282,8 +254,6 @@ let productData = [
         price: 22.00,
         color: "black",
         id: "c32",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/66665274_065_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -292,8 +262,6 @@ let productData = [
         price: 88.00,
         color: "pink",
         id: "c33",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112522160115_068_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -302,8 +270,6 @@ let productData = [
         price: 169.00,
         color: "pink",
         id: "c34",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/66796657_066_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -312,8 +278,6 @@ let productData = [
         price: 179.00,
         color: "pink",
         id: "c35",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/68650548_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -322,8 +286,6 @@ let productData = [
         price: 88.00,
         color: "pink",
         id: "c36",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112368730044_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -332,8 +294,6 @@ let productData = [
         price: 178.00,
         color: "pink",
         id: "c37",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4114529100144_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -342,8 +302,6 @@ let productData = [
         price: 369.00,
         color: "pink",
         id: "c38",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130084320084_266_b15?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -352,8 +310,6 @@ let productData = [
         price: 103.00,
         color: "pink",
         id: "c39",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112522160112_068_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -362,8 +318,6 @@ let productData = [
         price: 268.00,
         color: "pink",
         id: "c40",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112265640015_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -372,8 +326,6 @@ let productData = [
         price: 18.00,
         color: "black",
         id: "c41",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4110916210121_010_b15?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -382,8 +334,6 @@ let productData = [
         price: 14.00,
         color: "white",
         id: "c42",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4110916210108_011_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -392,8 +342,6 @@ let productData = [
         price: 20.00,
         color: "white",
         id: "c43",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130264840011_040_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -402,8 +350,6 @@ let productData = [
         price: 23.00,
         color: "blue",
         id: "c44",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4120370060023_038_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -412,8 +358,6 @@ let productData = [
         price: 15.00,
         color: "green",
         id: "c45",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4120084320026_030_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -422,8 +366,6 @@ let productData = [
         price: 150.00,
         color: "green",
         id: "c46",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/68438852_034_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -432,8 +374,6 @@ let productData = [
         price: 256.00,
         color: "green",
         id: "c47",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130578570013_030_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -442,8 +382,6 @@ let productData = [
         price: 15.00,
         color: "green",
         id: "c48",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112265640015_063_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -452,8 +390,6 @@ let productData = [
         price: 252.00,
         color: "red",
         id: "c49",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112916210052_062_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -462,8 +398,6 @@ let productData = [
         price: 658.00,
         color: "red",
         id: "c50",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4111522160007_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -472,8 +406,6 @@ let productData = [
         price: 13.00,
         color: "black",
         id: "c51",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112449700005_046_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -482,8 +414,6 @@ let productData = [
         price: 14.00,
         color: "blue",
         id: "c52",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130578570013_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -492,8 +422,6 @@ let productData = [
         price: 144.00,
         color: "white",
         id: "c53",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112609690111_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -502,8 +430,6 @@ let productData = [
         price: 166.00,
         color: "white",
         id: "c54",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4112368730048_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -512,8 +438,6 @@ let productData = [
         price: 236.00,
         color: "white",
         id: "c55",
-        // brand:,
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/4130646420031_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -522,16 +446,12 @@ let productData = [
         price: 368.00,
         color: "black",
         id: "c56",
-        // brand:,
-        // size:,
     },
 ];
 
-// whole array(productArr)/data added into localStorage
 
 localStorage.setItem("clothingLSData", JSON.stringify(productData));
 
-// Now getting same data from localStorage and storing it in productArr named variable 
 
 let productArr = JSON.parse(localStorage.getItem("clothingLSData"));
 
@@ -540,11 +460,9 @@ disp_prod(productArr);
 let sorting_data = document.querySelector("#sorting_opt");
 sorting_data.addEventListener("change", sorting);
 
-// creating a function for shorting 
 
 function sorting() {
     let sortAs = document.querySelector("#sorting_opt").value;
-    // console.log(sortAs)
     if (sortAs == "none" || sortAs == "newest" || sortAs == "bestselling") {
         disp_prod(productData);
         console.log(sortAs)
@@ -563,7 +481,6 @@ function sorting() {
     }
 };
 
-// creating a function for displaying data and also creating all the element which is required fo product div
 function disp_prod(productArr) {
     document.querySelector("#product").innerHTML = "";
     productArr.forEach(function (elem) {
@@ -637,14 +554,7 @@ function disp_prod(productArr) {
         document.querySelector("#product").append(div);
         div.append(img, name, currency, price, br1, div_col, div_btn);
 
-        // function buynow(elem) {
-        //         let invoice= elem.price
-        //         window.location.href="payment.html";
-        //         localStorage.setItem("invoice_details", JSON.stringify(invoice));
-        //     // console.log(buyingItem)
-        // };
         function addToCart(id) {
-            // console.log(id)
             cartLSdata = JSON.parse(localStorage.getItem("cart")) || [];
 
             for (let i = 0; i < cartLSdata.length; i++) {
@@ -680,15 +590,13 @@ expand.forEach(function (elem) {
     });
 });
 
-// For filtering content 
-let filter = document.querySelectorAll(".expand_opt"); //selecting all select button of filter
+let filter = document.querySelectorAll(".expand_opt");
 filter.forEach(function (elem) {
     elem.addEventListener("change", function () {
-        let selected = elem.value;                       // storing select button value
+        let selected = elem.value;
 
         let filtered_arr = productArr.filter(function (elem) {
 
-            // For Price 
             if (selected == 1) {
                 return elem.price < 25;
             }
@@ -702,7 +610,6 @@ filter.forEach(function (elem) {
                 return elem.price > 100;
             }
 
-            // For Color 
             else if (selected == "white") {
                 return elem.color == "white";
             }
@@ -732,7 +639,6 @@ filter.forEach(function (elem) {
     });
 });
 
-//For reset button
 let reset = document.querySelector("#filter>h4");
 reset.addEventListener("click", function () {
     window.location.reload();
