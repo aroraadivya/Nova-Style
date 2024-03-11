@@ -207,7 +207,6 @@ let productData = [
         color: "red",
         type: "dinner",
         id: "g21",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45447783AA_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -217,7 +216,6 @@ let productData = [
         color: "red",
         type: "arom",
         id: "g22",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/63849269_069_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -227,7 +225,6 @@ let productData = [
         color: "red",
         type: "kids",
         id: "g23",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/43769355_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -237,7 +234,6 @@ let productData = [
         color: "red",
         type: "candle",
         id: "g24",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65817520_000_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -247,7 +243,6 @@ let productData = [
         color: "red",
         type: "dinner",
         id: "g25",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/69007102_010_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -257,7 +252,6 @@ let productData = [
         color: "green",
         type: "arom",
         id: "g26",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/68778208_237_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -267,7 +261,6 @@ let productData = [
         color: "green",
         type: "arom",
         id: "g27",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/69007144_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -277,7 +270,6 @@ let productData = [
         color: "green",
         type: "arom",
         id: "g28",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/76004118_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -287,7 +279,6 @@ let productData = [
         color: "blue",
         type: "kids",
         id: "g29",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/62623772_001_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -295,9 +286,8 @@ let productData = [
         name: "Black Reed Diffuser",
         price: 22.00,
         color: "black",
-        rtpe: "candle",
+        type: "candle",
         id: "g30",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/53580700_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -307,7 +297,6 @@ let productData = [
         color: "pink",
         type: "kids",
         id: "g31",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45548960AA_014_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -317,7 +306,6 @@ let productData = [
         color: "pink",
         type: "candle",
         id: "g32",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/67899625_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
