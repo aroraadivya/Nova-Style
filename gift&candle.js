@@ -499,7 +499,6 @@ let productData = [
         color: "red",
         type: "kids",
         id: "g48",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45544621AA_001_b1?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -509,7 +508,6 @@ let productData = [
         color: "black",
         type: "candle",
         id: "g49",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/68885573_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -519,7 +517,6 @@ let productData = [
         color: "blue",
         type: "kids",
         id: "g50",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45549465AA_004_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
@@ -529,7 +526,6 @@ let productData = [
         color: "white",
         type: "candle",
         id: "g51",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/65718025_066_b11?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -539,7 +535,6 @@ let productData = [
         color: "white",
         type: "dinner",
         id: "g52",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/51471274_072_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -549,7 +544,6 @@ let productData = [
         color: "white",
         type: "dinner",
         id: "g53",
-        // size:,
     },
     {
         image: "https://images.urbndata.com/is/image/Anthropologie/45540068AA_020_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
@@ -558,7 +552,7 @@ let productData = [
         price: 368.00,
         color: "black",
         type: "candle",
-        id: "g54",
+        id: "g54"
         // size:,
     },
 ];
@@ -667,10 +661,8 @@ function disp_prod(productArr) {
             let buyingItem = {
                 Price: elem.price
             }
-            // console.log(buyingItem)
         };
         function addToCart(id) {
-            // console.log(id)
             cartLSdata = JSON.parse(localStorage.getItem("cart")) || [];
 
             for (let i = 0; i < cartLSdata.length; i++) {
@@ -705,7 +697,6 @@ expand.forEach(function (elem) {
     });
 });
 
-// For filtering content 
 let filter = document.querySelectorAll(".expand_opt");
 let reset = document.querySelector("#filter>h4");
 reset.addEventListener("click", function () {
