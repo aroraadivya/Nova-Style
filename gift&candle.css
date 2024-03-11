@@ -1,138 +1,132 @@
-                        /* CSS For Gift Page  */
-                        
-                        /* whole content in a single parent div  */
-    #parent {
-        width: 95%;
-        margin: auto;
-        display: flex;
-    }
+#parent {
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
 
-                    /* 1st child div for left filter option  */
-    #left {
-        width: 15%;
-    }
+#left {
+    width: 15%;
+}
 
-    #left>p {
-        border-bottom: 1px solid rgb(222, 222, 222);
-        font-weight: 400;
-        font-size: 15px;
-    }
+#left>p {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    font-weight: 400;
+    font-size: 15px;
+}
 
-    .left_font>div>a {
-        color: #26262c;
-        text-decoration: none;
-        font-family: "Avenir Book", sans-serif;
-        line-height: 25px;
-        font-size: 12px;
-    }
+.left_font>div>a {
+    color: #26262c;
+    text-decoration: none;
+    font-family: "Avenir Book", sans-serif;
+    line-height: 25px;
+    font-size: 12px;
+}
 
-    #option>div {
-        margin-bottom: 12px;
-    }
+#option>div {
+    margin-bottom: 12px;
+}
 
-    #option>div:nth-child(1)>a {
-        color: #47afe0;
-        border-bottom: 1px solid #47afe0;
+#option>div:nth-child(1)>a {
+    color: #47afe0;
+    border-bottom: 1px solid #47afe0;
 
-    }
+}
 
-    #option>div:hover {
-        color: black;
-        text-decoration: underline;
-    }
+#option>div:hover {
+    color: black;
+    text-decoration: underline;
+}
 
-                                /* For filtering content  */
+#filter>h4 {
+    font-size: 18px;
+    color: gray;
+}
 
-    #filter>h4 {
-        font-size: 18px;
-        color: gray;
-    }
+#filter>h4:hover {
+    color: rgb(85, 82, 82);
+}
 
-    #filter>h4:hover {
-        color: rgb(85, 82, 82);
-    }
+#filter_heading {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    margin: 40px auto 0px auto;
+    font-weight: 400;
+    font-size: 18px;
+}
 
-    #filter_heading {
-        border-bottom: 1px solid rgb(222, 222, 222);
-        margin: 40px auto 0px auto;
-        font-weight: 400;
-        font-size: 18px;
-    }
+#filter>div {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
 
-    #filter>div {
-        padding: 20px 0;
-        border-bottom: 1px solid rgb(222, 222, 222);
-    }
+.expand_opt {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
 
-    .expand_opt {
-        display: flex;
-        justify-content: space-between;
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 15px;
-    }
+.expand_opt:hover {
+    color: rgb(102, 168, 180);
+}
 
-    .expand_opt:hover {
-        color: rgb(102, 168, 180);
-    }
+.expand_opt::after {
+    content: "\002B";
+    font-weight: 600;
+}
 
-    .expand_opt::after {
-        content: "\002B";
-        font-weight: 600;
-        /* color: gray; */
-    }
+.expand_opt.active::after {
+    content: "\2212";
+}
 
-    .expand_opt.active::after {
-        content: "\2212";
-    }
+#filter>div~div:hover {
+    color: rgb(102, 168, 180);
+}
 
-    #filter>div~div:hover {
-        color: rgb(102, 168, 180);
-    }
+.expand_opt {
+    width: 100%;
+    margin: 10px;
+}
 
-    .expand_opt {
-        width: 100%;
-        margin: 10px;
-    }
+.left_font:hover {
+    cursor: pointer;
+}
 
-    .left_font:hover {
-        cursor: pointer;
-    }
+#main {
+    width: 80%;
+    margin: auto;
+}
 
+#sort_heading {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-                            /* another 2nd div for sorting product display  */
-    #main {
-        width: 80%;
-        margin: auto;
-    }
+#sorting {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
 
-    #sort_heading {
-        height: 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+select {
+    height: 35px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 20px;
+    width: 120px;
 
-    #sorting {
-        display: flex;
-        align-items: center;
-        height: 80px;
-    }
+}
 
-    select {
-        height: 35px;
-        border-radius: 5px;
-        padding: 3px;
-        margin-right: 20px;
-        width: 120px;
+#sorting>div {
+    margin-top: 5px;
+    margin-right: 10px;
+    font-weight: 200;
+}
 
-    }
-
-    #sorting>div {
-        margin-top: 5px;
-        margin-right: 10px;
-        font-weight: 200;
-    }
+    
+    
 
     #caruser {
         display: flex;

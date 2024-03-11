@@ -15,14 +15,12 @@
   <link rel="stylesheet" href="navbar_style.css" />
   <script src="https://kit.fontawesome.com/45e6a363b2.js" crossorigin="anonymous"></script>
   <style>
-    /* whole content in a single parent div  */
     #parent {
       width: 95%;
       margin: auto;
       display: flex;
     }
 
-    /* 1st child div for left filter option  */
     #left {
       width: 15%;
       margin-top: 50px;
@@ -56,8 +54,6 @@
       color: black;
       text-decoration: underline;
     }
-
-    /* For filtering content  */
 
     #filter>h4 {
       font-size: 18px;
@@ -95,7 +91,6 @@
     .expand_opt::after {
       content: "\002B";
       font-weight: 600;
-      /* color: gray; */
     }
 
     .expand_opt.active::after {
@@ -115,8 +110,6 @@
       cursor: pointer;
     }
 
-
-    /* another 2nd div for sorting product display  */
     #main {
       width: 80%;
       margin: auto;
@@ -148,34 +141,6 @@
       margin-top: 5px;
       margin-right: 10px;
       font-weight: 200;
-    }
-
-    #caruser {
-      display: flex;
-    }
-
-    #caruser>h2 {
-      margin-top: 13px;
-      color: gray;
-      font-weight: 100;
-      font-size: 17px;
-    }
-
-    #caruser>button:first-child {
-      color: rgb(192, 189, 189);
-    }
-
-    #caruser>button {
-      font-size: 40px;
-      background-color: transparent;
-      border: none;
-      color: rgb(107, 103, 103);
-      margin-bottom: 10px;
-
-    }
-
-    #caruser>button:hover {
-      cursor: pointer;
     }
 
     select:hover {

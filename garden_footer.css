@@ -23,13 +23,10 @@
     width: 100%;
     height: auto;
     padding: 20px 0;
-    /* border: 1px solid red; */
   }
   footer .email {
     display: flex;
     justify-content: space-between;
-  
-    /* border: 1px solid red; */
     padding: 0 3%;
     gap: 10%;
     padding-right: 0%;
@@ -43,7 +40,6 @@
     font-size: 15px;
   }
   footer .email > div:nth-child(2) {
-    /* border: 1px solid red; */
     font-size: 16px;
     padding: 15px;
     width: 70%;
@@ -71,9 +67,7 @@
     font-size: 18px;
   }
   footer .section1 > div:nth-child(2) {
-    /* border: 1px solid red; */
     margin-top: 2%;
-    /* text-align: center; */
     font-size: 12px;
     margin-left: 3%;
   }
@@ -112,7 +106,6 @@
   }
   footer .icons {
     width: 20%;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,7 +119,6 @@
   }
   footer .lstimg {
     width: 90%;
-    /* height: 1%; */
     margin: auto;
     margin-top: 1%;
   }
@@ -156,7 +148,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 1%;
-    /* border: 1px solid red; */
     font-size: 12px;
     margin: auto;
     margin-top: 1%;
