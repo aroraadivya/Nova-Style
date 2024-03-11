@@ -1,97 +1,38 @@
+document.getElementById("searchForm").addEventListener("submit", function (event) {
+     event.preventDefault(); // Prevent default form submission
 
-// document.addEventListener("DOMContentLoaded", function () {
-//      var searchForm = document.getElementById("search Form");
-//      var searchInput = document.getElementById("search Input");
-//      var searchResults = document.getElementById("search Results");
+     // Get the value of the search input
+     var searchQuery = document.getElementById("searchInput").value;
 
-
-//      var products = [
-//           {
-//                category: "shorts",
-//                name: "The Way Home Shorts",
-//                image: "https://images.urbndata.com/is/image/Anthropologie/68438852_034_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
-//                // link: "sproduct9.html",
-//           },
-
-//      ];
-
-//      searchForm.addEventListener("submit", function (event) {
-//           event.preventDefault();
-//           var searchTerm = searchInput.value.trim().toLowerCase();
-//           if (searchTerm !== "") {
-//                var filteredProducts = products.filter(function (product) {
-//                     return (
-//                          product.category.toLowerCase() === searchTerm ||
-//                          product.name.toLowerCase().includes(searchTerm)
-//                     );
-//                });
-
-//                displaySearchResults(filteredProducts)
-//           } else {
-//                hideSearchResults();
-//           }
-//      });
-
-//      function displaySearchResults(products) {
-//           searchResults.innerHTML = "";
-//           products.forEach(function (product) {
-//                var item = document.createElement("div");
-//                item.classList.add("searchItem");
-
-//                var image = document.createElement("img");
-//                image.src = product.image;
-//                image.alt = product.name;
-//                image.width = 70;
-
-//                var name = document.createElement("span");
-//                name.textContent = product.name;
-
-//                item.appendChild(image);
-//                item.appendChild(name);
-
-//                item.addEventListener("click", function () {
-//                     window.location.href = product.link;
-//                });
-
-//                searchResults.appendChild(item);
-//           });
-
-//           searchResults.classList.remove("hidden");
-//      }
-
-//      function hideSearchResults() {
-//           searchResults.innerHTML = "";
-//           searchResults.classList.add("hidden");
-//      }
-
-//      document.addEventListener("click", function (event) {
-//           if (!searchForm.contains(event.target)) {
-//                hideSearchResults();
-//           }
-//      });
-
-//      searchForm.addEventListener("click", function (event) {
-//           event.stopPropagation();
-//      });
-// });
-
-
-document.addEventListener("DOMContentLoaded", function () {
-     const searchBar = document.querySelector(".search input");
-     const cards = document.querySelectorAll(".card");
-
-     searchBar.addEventListener("keyup", function (event) {
-          const searchText = event.target.value.toLowerCase();
-
-          cards.forEach(function (card) {
-               const title = card.querySelector(".title").textContent.toLowerCase();
-               const desc = card.querySelector(".desc").textContent.toLowerCase();
-
-               if (title.includes(searchText) || desc.includes(searchText)) {
-                    card.style.display = "block";
-               } else {
-                    card.style.display = "none";
-               }
-          });
-     });
+     // Perform search functionality
+     fetchSearchResults(searchQuery);
 });
+
+function fetchSearchResults(query) {
+     // You would typically make an AJAX request to your backend to fetch search results
+     // Replace this with your actual backend URL
+     var backendUrl = "https://example.com/search?query=" + encodeURIComponent(query);
+
+     // Fetch search results from backend
+     fetch(backendUrl)
+          .then(response => response.json())
+          .then(data => {
+               // Display search results on the page
+               displaySearchResults(data);
+          })
+          .catch(error => console.error("Error fetching search results:", error));
+}
+
+function displaySearchResults(results) {
+     var searchResultsContainer = document.getElementById("searchResults");
+
+     // Clear previous search results
+     searchResultsContainer.innerHTML = "";
+
+     // Display each search result
+     results.forEach(result => {
+          var resultElement = document.createElement("div");
+          resultElement.textContent = result.name; // Assuming the search result has a 'name' property
+          searchResultsContainer.appendChild(resultElement);
+     });
+}
