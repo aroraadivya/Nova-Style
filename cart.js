@@ -1,5 +1,3 @@
-//JS File for cart page
-
 let itemDetails = JSON.parse(localStorage.getItem("cart")) || [];
 
 let Total_price = 0;
@@ -81,10 +79,6 @@ itemDetails.forEach(function (elem, index) {
   let br = document.createElement("br");
 
   qty.append(opt1, opt2, opt3, opt4, opt5, opt6, opt7, opt8, opt9, opt10);
-  // qty.addEventListener("change",function(){
-  //     getQquantity(T_price,td5.value)
-  //     console.log(t_price)
-  //         });
 
   td4.append(qty, br, remove);
 
@@ -106,7 +100,6 @@ itemDetails.forEach(function (elem, index) {
   tr.append(td1, td2, td3, td4, td5);
   document.querySelector("table>tbody").append(tr);
 
-  // For Showing all price
 
   document.querySelector("#sub_total").innerText = "$" + Total_price;
 
@@ -125,19 +118,16 @@ function getQuantity(value, i) {
   console.log(qty_value);
 }
 
-// Function for removing items
 function removeItem(index) {
   itemDetails.splice(index, 1);
   localStorage.setItem("cart", JSON.stringify(itemDetails));
   window.location.reload();
 }
 
-// For Applying promo code
-document.querySelector("#promocode").addEventListener("change", getSiscount);
+document.querySelector("#promocode").addEventListener("change", getDiscount);
 let dis = 0;
-function getSiscount() {
+function getDiscount() {
   let promovalue = document.querySelector("#promo").value;
-  // console.log(typeof(Total_price))
   let dis = 0;
   if (promovalue == "10") {
     dis = Total_price / 10;
@@ -151,7 +141,6 @@ function getSiscount() {
     document.querySelector("#sub_total").innerText = "$" + (Total_price - dis);
     document.querySelector("#total").innerText = "$" + (Total_price - dis);
     alert(`Wow...! you got $${dis} Discount.`);
-    // console.log(typeof(dis))
   } else if (promovalue == "30") {
     dis = ((Total_price / 10) * 3).toFixed(2);
     document.querySelector("#sub_total").innerText = "$" + (Total_price - dis);
@@ -172,14 +161,12 @@ quantity.forEach(function (elem) {
   });
 });
 
-// For payment page
 
 document.querySelector("#btn").addEventListener("click", proceedTopay);
 function proceedTopay() {
   itemDetails = JSON.parse(localStorage.getItem("cart")) || [];
   let invoice = itemDetails;
 
-  // window.location.href="payment.html"
 
   localStorage.setItem("invoice_details", JSON.stringify(invoice));
 }
