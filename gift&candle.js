@@ -504,7 +504,6 @@ let productData = [
         color: "black",
         type: "candle",
         id: "g54"
-        // size:,
     },
 ];
 
@@ -554,7 +553,6 @@ function disp_prod(productArr) {
         });
         img.addEventListener("mouseout", function () {
             img.setAttribute("src", elem.image);
-            // alert()
         });
         let name = document.createElement("p");
         name.innerText = elem.name;
