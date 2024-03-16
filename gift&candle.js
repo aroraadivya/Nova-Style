@@ -657,7 +657,6 @@ filter.forEach(function (elem) {
 
         let filtered_arr = productArr.filter(function (elem) {
 
-            // For Product type 
             if (selected == "arom") {
                 return elem.type == "arom"
             }
