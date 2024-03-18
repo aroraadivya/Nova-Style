@@ -13,7 +13,6 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* border: 1px solid red; */
   padding: 5px;
   gap: 20px;
   padding-right: 3%;
@@ -32,7 +31,6 @@ body {
   align-items: center;
   margin: auto;
   background-color: #fdfdf8;
-  /* border: 1px solid red; */
 }
 .logo > div:nth-child(1) {
   display: flex;
@@ -41,7 +39,6 @@ body {
   height: 100%;
   border-left: 1px solid lightgrey;
   border-right: 1px solid lightgrey;
-  /* border: 1px solid red; */
   margin-left: 3%;
 }
 .logo > div:nth-child(1) div {
@@ -58,7 +55,6 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
-  /* border: 1px solid red; */
 }
 .logo .search p {
   display: inline-block;
