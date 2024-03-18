@@ -58,7 +58,6 @@ body {
 }
 .logo .search p {
   display: inline-block;
-  /* border: 1px solid black; */
   color: rgba(1, 108, 108, 0.712);
   font-size: 20px;
   font-weight: lighter;
