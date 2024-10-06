@@ -18,6 +18,7 @@ itemDetails.forEach(function (elem, index) {
   let p3 = document.createElement("p");
   p3.innerText = "Color: " + elem.color;
 
+  
   let p4 = document.createElement("p");
   p4.innerText = "Size " + elem.size;
 
