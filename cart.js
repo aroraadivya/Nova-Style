@@ -8,6 +8,7 @@ itemDetails.forEach(function (elem, index) {
   let img = document.createElement("img");
   img.setAttribute("src", elem.image);
   td1.append(img);
+  
   let td2 = document.createElement("td");
   let p1 = document.createElement("p");
   p1.innerText = elem.name;
